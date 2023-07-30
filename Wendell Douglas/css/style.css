@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+*, *::after, *::before {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a
+{
+color: #fff;
+text-decoration: none;
+transition: 0.3s;
+z-index: 100;
+}
+
+a:hover
+{
+    opacity: 0.5;
+}
+
+.navicon
+{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    margin-top: 18.2vw;
+}
+
+
+.iconnavbar
+{
+    list-style: none;
+    display: flex;
+    letter-spacing: 3px;
+}
+
+.iconnavbar li 
+{
+    letter-spacing: 5px;
+    margin-left: 20px;
+}
+
+
+html
+{
+    font-size: 10px;
+}
+
+body 
+{
+    background-color: #f2d3bc;
+    font-family: 'Righteous', cursive;
+    color: white;
+    overflow: auto;
+    min-width: 100vw;
+    min-height: 100vh;
+}
+
+.header 
+{
+    height: 60rem;
+    position: relative;
+}
+
+.navbar 
+{ 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 6rem;
+    margin-top: -60px;
+}
+
+.navbar__logo
+{
+    position: relative;
+    z-index: 100;
+
+}
+
+
+.navbar__menu 
+{ 
+    display: flex;
+    list-style: none;
+    z-index: 100;
+}
+
+.navbar__list:not(:first-child) 
+{
+    margin-left: 2rem;
+}
+
+.navbar__link
+{
+    text-decoration: none;
+    font-size: 1.6rem;
+    color: white;
+}
+
+.video { 
+    height: 100vh;
+    width: 100vw;
+    position:fixed;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    object-fit: cover;
+    background-size: cover;
+}
+
+
+
+.text
+{
+    
+    color: red;
+    font-size: 25px;
+    text-align: center;
+    width: 800px;
+    text-align: justify;
+    position: relative;
+    top: 40%;
+    left: 30%;
+    text-indent: 30px;
+}
+
+footer
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-style: italic;
+    position: relative;
+    font-size: 12px;
+    cursor: default;
+}

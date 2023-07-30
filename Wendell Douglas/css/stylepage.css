@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+body 
+{
+    background-color: #f2d3bc;
+    font-family: 'Righteous', cursive;
+    color: white;
+    overflow: auto;
+}
+
+html
+{
+    font-size: 10px;
+
+}
+
+.redlogo
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 22%;
+}
+
+p
+{
+    color: black;
+    font-size: 35px;
+    text-align: center;
+}
+
+b
+{
+    color: rgb(167, 6, 6);
+}
+
+strong
+{   text-align: center;
+    float: right;
+    margin-right: 50%;
+}
+
+.logored
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+}
+
+.logoneon
+{
+    display: block;
+    margin-left: auto;
+    margin-right: 39%;
+    width: 25%;
+}
+
+a:link {
+    color: black;
+  }
+  a:visited {
+    color: black;
+  }
+  a:hover {
+    color: black;
+  }
+  a:active {
+    color: black;
+  } 
+
+
+.wallpaper
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    width: 100%;
+}
+
+main
+{
+    background-color: #f2d3bc;
+    padding: 20px;
+    border-radius: 10px;
+    min-width: 260px;
+    max-width: 800px;
+    margin: auto;
+    color: red;
+    text-indent: 30px;
+    text-align: justify;
+    font-size: 25px;
+    top: 40%;
+    left: 30%;
+}
+
+.m1
+{
+    background-color: #f2d3bc;
+    min-width: 260px;
+    max-width: 800px;
+    margin: auto;
+    color: black;
+}
+
+.t1
+{
+    background-color: #f2d3bc;
+    padding: 20px;
+    border-radius: 10px;
+    min-width: 260px;
+    max-width: 800px;
+    float: right;
+    color: black;
+    text-align: left;
+    font-size: 15px;
+    margin-right: 0%;
+    margin-top: 5%;
+}
+
+.anthny
+{
+    width: 100%;
+    margin: auto;
+    display: inline-block;
+    vertical-align: inline-block;
+}
+
+.Integrantes
+{
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    min-width: 260px;
+    max-width: 800px;
+    color: red;
+    text-align: justify;
+    font-size: 15px;
+}
+
+.list
+{
+    list-style: none;
+    display: inline-block;
+    vertical-align: inline-block;
+}
+
+.disco
+{
+    width: 34px;
+    margin-left: 15px;
+    margin-top: -5px;
+    cursor: default;
+    display: inline-block;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+.log
+{
+height: 150px;
+width: 150px;
+display: inline-block;
+}
+
+.nav-list
+{
+    padding: 10px 200px;
+    border-radius: 10px;
+    display: flex;
+    cursor: default;
+}
+
+.navi
+{
+    list-style: decimal;
+
+}
+
+.nav-list:hover
+{
+    background: rgba(255, 0, 0, 0.692);  
+}
+
+footer
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-style: italic;
+    position: relative;
+    font-size: 12px;
+    cursor: default;
+}
+
+table
+{
+    background-color: #f2d3bc;
+    padding: 20px;
+    min-width: 260px;
+    max-width: 800px;
+    float: right;
+    color: black;
+    text-align: left;
+    font-size: 15px;
+    margin-right: 0%;
+    margin-top: 0%;
+}
